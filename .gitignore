@@ -1,0 +1,50 @@
+# === Java general ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.target/
+
+# VS Code
+.vscode/
+
+# === Maven ===
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# === Logs ===
+logs/
+*.log
+
+# === Test reports ===
+test-output/
+surefire-reports/
+jacoco.exec
+
+# === Spring Boot devtools ===
+.spring-boot-devtools.properties
+
+# === OS files ===
+*.swp
+*.swo
+*~
